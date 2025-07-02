@@ -1,0 +1,18 @@
+{
+    "links": [
+    
+        {
+            "url": "index.html",
+            "title": "Teams"
+        },
+        {
+            "url": "signup.html",
+            "title": "Sign-up Form"
+        },
+        {
+            "url": "draft.html",
+            "title": "Draft"
+        }
+    ]
+
+}

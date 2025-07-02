@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Franchise GM | Home</title>
+    <meta name="description" content="WDD330 project">
+    <meta name="author" content="Cris Altman">
+
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital@0;1&family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+
+    <!-- stylesheet links -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles-large.css">
+
+    <!-- javascript links -->
+    <script type="module" src="scripts/search.mjs" defer></script>
+    <script type="module" src="scripts//utils.mjs" defer></script>
+
+</head>
+
+<body>
+
+  <header id="header">
+    <div class="hero">
+      <picture>
+          <source media="(min-width: 700px)" srcset="images/fgmheader-large.webp">
+          <img src="images/fgm-header.webp" alt="FGM Banner" width="400">
+      </picture>     
+    </div>
+      <nav>
+        <a id="menu" href="javascript:void(0)" aria-label="navgation menu"></a>        
+        <ul class="navigation">
+        <!-- <a href="https://www.profsl.com/smf/index.php?board=9">League Main</a> -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="teams.html">Teams</a></li>
+          <li><a href="signup.html">Sign-up</a></li>
+          <li><a href="search.html">Search</a></li>
+        </ul>
+      </nav>
+  </header>
+
+    <main>
+    <h1>Player Search</h1>
+        <form method = "get" action = "results.html" class="search">
+            <fieldset>
+                <label>Enter Player Name<input type = "text" name = "playerSearch" id="playerSearch" required></label>
+            </fieldset>
+            <button class="baseball">
+                <p>Search</p>
+                <input type="image" value="Find Player" src="images/baseball.png" alt="baseball" width="60">
+            </button>
+
+        </form>
+    </main>
+
+    <footer>
+        <p id="footer-info"></p>
+    </footer>
+</body>
+
+</html>
